@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const UnitPage = () => {
@@ -13,22 +14,28 @@ const UnitPage = () => {
         <p className={styles.description}></p>
 
         <div className={styles.grid}>
-          <a href="/px" className={styles.card}>
-            <h2>Absolute Length &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <Link href="/absolute-length">
+            <a className={styles.card}>
+              <h2>Absolute Length &rarr;</h2>
+              <p>Find in-depth information about Next.js features and API.</p>
+            </a>
+          </Link>
 
-          <a href="/em" className={styles.card}>
-            <h2>Relative length &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <Link href="/relative-length">
+            <a href="" className={styles.card}>
+              <h2>Relative length &rarr;</h2>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
+          </Link>
 
-          <a href="/px-em-rem" className={styles.card}>
-            <h2>Difference &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link href="/difference">
+            <a className={styles.card}>
+              <h2>Difference &rarr;</h2>
+              <p>
+                Instantly deploy your Next.js site to a public URL with Vercel.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
     </div>

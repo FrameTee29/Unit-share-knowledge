@@ -1,5 +1,5 @@
-const AbsoluteLength = () => {
-  return <div></div>;
+const RelativeLength = () => {
+  return <div>RelativeLength</div>;
 };
 
-export default AbsoluteLength;
+export default RelativeLength;
