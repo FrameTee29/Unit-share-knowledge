@@ -16,24 +16,25 @@ const UnitPage = () => {
         <div className={styles.grid}>
           <Link href="/absolute-length">
             <a className={styles.card}>
-              <h2>Absolute Length &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <h2 className="font-semibold">Absolute Length &rarr;</h2>
+              <p>
+                หน่วยประเภทนี้จะมีความยาวที่มีขนาดตามที่กำหนด
+                ไม่มีการเปลี่ยนแปลง
+              </p>
             </a>
           </Link>
 
           <Link href="/relative-length">
             <a href="" className={styles.card}>
-              <h2>Relative length &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
+              <h2 className="font-semibold">Relative length &rarr;</h2>
+              <p>หน่วยที่มีขนาดขึ้นอยู่กับขนาดของ property ตัวอื่นๆ </p>
             </a>
           </Link>
 
           <Link href="/difference">
             <a className={styles.card}>
-              <h2>Difference &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
+              <h2 className="font-semibold">Difference &rarr;</h2>
+              <p>แสดงความแตกต่างระหว่าง Absolute Length และ Relative length</p>
             </a>
           </Link>
         </div>
