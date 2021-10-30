@@ -30,13 +30,6 @@ const UnitPage = () => {
               <p>หน่วยที่มีขนาดขึ้นอยู่กับขนาดของ property ตัวอื่นๆ </p>
             </a>
           </Link>
-
-          <Link href="/difference">
-            <a className={styles.card}>
-              <h2 className="font-semibold">Difference &rarr;</h2>
-              <p>แสดงความแตกต่างระหว่าง Absolute Length และ Relative length</p>
-            </a>
-          </Link>
         </div>
       </main>
     </div>
